@@ -1,5 +1,5 @@
 import './App.css'
-import logoSvg from './assets/gss-logo.svg'
+import logoImage from './assets/Gss.jpeg'
 
 interface Product {
   id: number
@@ -52,7 +52,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo-wrapper">
-            <img src={logoSvg} alt="GSS System Innovators Logo" className="logo-image" />
+            <img src={logoImage} alt="GSS System Innovators Logo" className="logo-image" />
             <span className="logo-text">GSS System Innovators</span>
           </div>
           <div className="nav-links">
@@ -66,12 +66,12 @@ function App() {
       {/* Hero Section */}
       <section className="hero">
         <div className="hero-content">
-          <h1 className="hero-title">Enterprise Solutions for the Modern Era</h1>
+          <h1 className="hero-title">Sovereign African Tech Solutions</h1>
           <p className="hero-subtitle">
-            Discover powerful tools designed to scale your business and accelerate growth
+            Break free from expensive foreign monopolies. Deploy cloud infrastructure, AI automation, and email APIs—all sovereign, all local, all in UGX. No credit cards. No data leaving Uganda.
           </p>
           <div className="hero-buttons">
-            <a href="#products" className="btn btn-primary">Explore Products</a>
+            <a href="#products" className="btn btn-primary">Explore Our Solutions</a>
             <a href="#contact" className="btn btn-secondary">Get Started</a>
           </div>
         </div>
