@@ -13,27 +13,35 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: 'GSS Node',
-    description: 'Advanced node management and orchestration system for building scalable distributed networks.',
-    features: ['Node Management', 'Network Orchestration', 'Real-time Monitoring', 'High Availability'],
-    link: 'https://node.gss-tec.com/gss',
-    icon: '⚙️'
+    name: 'QSSN PaaS',
+    description: 'Cloud Hosting & CI/CD - Localized, edge-optimized hosting that replaces AWS, Google Cloud, or Azure with instant GitHub deployment.',
+    features: ['One-Click GitHub Deploy', 'Live in Under 2 Minutes', 'Local UGX Billing via PesaPal', 'Edge-Optimized Performance'],
+    link: 'https://qssnpaas.gss-tec.com',
+    icon: '☁️'
   },
   {
     id: 2,
-    name: 'SmartConnect',
-    description: 'Intelligent connectivity platform enabling seamless integration across your infrastructure.',
-    features: ['Smart Integration', 'API Management', 'Real-time Sync', 'Multi-Protocol Support'],
-    link: 'https://smartconnect.gss-tec.com/',
-    icon: '🔗'
+    name: 'QEMAIL Smart Connect',
+    description: 'Email API powered by BYOG (Bring Your Own Gmail) technology. Sovereign alternative to Twilio and SendGrid with full data control.',
+    features: ['High-Speed Email Delivery', 'Data Sovereignty by Design', 'BYOG Technology', 'Affordable Pricing'],
+    link: 'https://smartconnect.gss-tec.com',
+    icon: '📧'
   },
   {
     id: 3,
-    name: 'GSS Open',
-    description: 'Open-source platform for collaborative development and community-driven innovation.',
-    features: ['Open Source', 'Community Driven', 'Extensible', 'Free to Deploy'],
-    link: 'https://open.gss-tec.com/',
-    icon: '🚀'
+    name: 'Gmail AI Node',
+    description: 'AI-driven inbox automation that responds to customer emails 24/7. Trained on your business knowledge with no foreign servers involved.',
+    features: ['24/7 AI Email Responses', 'Custom Business Training', 'Data Sovereignty', 'Gmelius Alternative'],
+    link: 'https://open.gss-tec.com',
+    icon: '🤖'
+  },
+  {
+    id: 4,
+    name: 'GSS-TEC AI Node Gateway',
+    description: 'Complete AI infrastructure with dedicated AI node, developer SDK, and native WhatsApp Business integration for sovereign AI automation.',
+    features: ['Sovereign AI Infrastructure', 'WhatsApp Business Integration', 'Developer SDK', 'Local UGX Pricing'],
+    link: 'https://node.gss-tec.com/gss',
+    icon: '🧠'
   }
 ]
 
@@ -115,39 +123,39 @@ function App() {
         <div className="features-container">
           <div className="section-header">
             <h2>Why Choose GSS</h2>
-            <p>Industry-leading solutions with proven results</p>
+            <p>Sovereign, affordable solutions built for African businesses</p>
           </div>
 
           <div className="features-grid">
             <div className="feature-item">
-              <div className="feature-icon">🛡️</div>
-              <h3>Enterprise Security</h3>
-              <p>Industry-standard security practices with end-to-end encryption and compliance certifications</p>
+              <div className="feature-icon">🔐</div>
+              <h3>Data Sovereignty</h3>
+              <p>Your data never leaves Uganda. Full control and ownership of your business data with no foreign servers storing your information</p>
             </div>
             <div className="feature-item">
               <div className="feature-icon">⚡</div>
-              <h3>High Performance</h3>
-              <p>Optimized for speed and efficiency with minimal latency and maximum throughput</p>
+              <h3>Lightning-Fast Deployment</h3>
+              <p>Deploy live in under 2 minutes. Connect GitHub, click deploy, and your project is live instantly with edge-optimized performance</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">🌍</div>
-              <h3>Global Scale</h3>
-              <p>Deploy and operate globally with distributed infrastructure and local redundancy</p>
+              <div className="feature-icon">💰</div>
+              <h3>Local Billing in UGX</h3>
+              <p>No credit cards required. Pay in Uganda Shillings via PesaPal—affordable pricing without foreign exchange complications</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">💡</div>
-              <h3>Innovation</h3>
-              <p>Continuous development with cutting-edge features and regular updates</p>
+              <div className="feature-icon">🤖</div>
+              <h3>AI-Powered Automation</h3>
+              <p>24/7 AI automation for emails, support, and business workflows trained on your own knowledge base</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">👥</div>
-              <h3>Expert Support</h3>
-              <p>24/7 dedicated support team ready to help you succeed</p>
+              <div className="feature-icon">📱</div>
+              <h3>WhatsApp Business Integration</h3>
+              <p>Connect AI directly to your WhatsApp number for instant customer responses on the channel they already use</p>
             </div>
             <div className="feature-item">
-              <div className="feature-icon">📊</div>
-              <h3>Advanced Analytics</h3>
-              <p>Deep insights and comprehensive reporting to drive data-driven decisions</p>
+              <div className="feature-icon">🔓</div>
+              <h3>Open Technology & SDKs</h3>
+              <p>Bring Your Own Gmail (BYOG), developer-friendly SDKs, and open APIs for seamless integration with your existing systems</p>
             </div>
           </div>
         </div>
@@ -227,9 +235,10 @@ function App() {
             <div className="footer-section">
               <h4>Products</h4>
               <ul>
-                <li><a href="https://node.gss-tec.com/gss" target="_blank" rel="noopener noreferrer">GSS Node</a></li>
-                <li><a href="https://smartconnect.gss-tec.com/" target="_blank" rel="noopener noreferrer">SmartConnect</a></li>
-                <li><a href="https://open.gss-tec.com/" target="_blank" rel="noopener noreferrer">GSS Open</a></li>
+                <li><a href="https://qssnpaas.gss-tec.com" target="_blank" rel="noopener noreferrer">QSSN PaaS</a></li>
+                <li><a href="https://smartconnect.gss-tec.com" target="_blank" rel="noopener noreferrer">QEMAIL Smart Connect</a></li>
+                <li><a href="https://open.gss-tec.com" target="_blank" rel="noopener noreferrer">Gmail AI Node</a></li>
+                <li><a href="https://node.gss-tec.com/gss" target="_blank" rel="noopener noreferrer">GSS-TEC AI Node Gateway</a></li>
               </ul>
             </div>
             <div className="footer-section">
