@@ -42,7 +42,7 @@ function App() {
       {/* Navigation */}
       <nav className="navbar">
         <div className="nav-container">
-          <div className="logo">GSS</div>
+          <div className="logo">GSS System Innovators</div>
           <div className="nav-links">
             <a href="#products">Products</a>
             <a href="#features">Features</a>
@@ -149,6 +149,60 @@ function App() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section id="contact" className="contact">
+        <div className="contact-container">
+          <div className="section-header">
+            <h2>Get in Touch</h2>
+            <p>Have questions? We'd love to hear from you!</p>
+          </div>
+
+          <div className="contact-grid">
+            <div className="contact-card">
+              <div className="contact-icon">📧</div>
+              <h3>General Inquiries</h3>
+              <p><a href="mailto:info@gss-tec.com">info@gss-tec.com</a></p>
+            </div>
+
+            <div className="contact-card">
+              <div className="contact-icon">💰</div>
+              <h3>Donations</h3>
+              <p><a href="mailto:donations@gss-tec.com">donations@gss-tec.com</a></p>
+            </div>
+
+            <div className="contact-card">
+              <div className="contact-icon">🤝</div>
+              <h3>Partnerships</h3>
+              <p><a href="mailto:partnership@gss-tec.com">partnership@gss-tec.com</a></p>
+            </div>
+
+            <div className="contact-card">
+              <div className="contact-icon">👔</div>
+              <h3>Human Resources</h3>
+              <p><a href="mailto:hr@gss-tec.com">hr@gss-tec.com</a></p>
+            </div>
+
+            <div className="contact-card">
+              <div className="contact-icon">👤</div>
+              <h3>Sales</h3>
+              <p><a href="mailto:sarah@gss-tec.com">sarah@gss-tec.com</a></p>
+            </div>
+
+            <div className="contact-card">
+              <div className="contact-icon">👤</div>
+              <h3>Management</h3>
+              <p><a href="mailto:Sylvia@gss-tec.com">Sylvia@gss-tec.com</a></p>
+            </div>
+
+            <div className="contact-card">
+              <div className="contact-icon">👤</div>
+              <h3>Operations</h3>
+              <p><a href="mailto:esther@gss-tec.com">esther@gss-tec.com</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="cta">
         <div className="cta-content">
@@ -163,7 +217,7 @@ function App() {
         <div className="footer-container">
           <div className="footer-content">
             <div className="footer-section">
-              <h4>GSS</h4>
+              <h4>GSS System Innovators</h4>
               <p>Enterprise solutions for modern businesses</p>
             </div>
             <div className="footer-section">
@@ -184,7 +238,7 @@ function App() {
             </div>
           </div>
           <div className="footer-bottom">
-            <p>&copy; 2024 GSS Technologies. All rights reserved.</p>
+            <p>&copy; 2024 GSS System Innovators. All rights reserved.</p>
           </div>
         </div>
       </footer>
