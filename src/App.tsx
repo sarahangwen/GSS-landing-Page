@@ -1,4 +1,5 @@
 import './App.css'
+import logoSvg from './assets/gss-logo.svg'
 
 interface Product {
   id: number
@@ -42,7 +43,10 @@ function App() {
       {/* Navigation */}
       <nav className="navbar">
         <div className="nav-container">
-          <div className="logo">GSS System Innovators</div>
+          <div className="logo-wrapper">
+            <img src={logoSvg} alt="GSS System Innovators Logo" className="logo-image" />
+            <span className="logo-text">GSS System Innovators</span>
+          </div>
           <div className="nav-links">
             <a href="#products">Products</a>
             <a href="#features">Features</a>
